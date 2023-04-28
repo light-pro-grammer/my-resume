@@ -1,0 +1,12 @@
+.contact-info {
+  font-family: Arial, sans-serif;
+}
+
+.contact-info h2 {
+  margin-bottom: 0.25em;
+}
+
+.contact-info p {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
