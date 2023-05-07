@@ -3,7 +3,8 @@ import './App.css';
 import profilePhoto from './images/profile-photo.png';
 import ProfileImage from './components/ProfileImage';
 import ContactInfo from './components/ContactInfo';
-import WorkExperience from './components/WorkExperience';
+import WorkExperience from './components/WorkExperience/WorkExperience';
+import Counter from './components/Counter';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         </div>
         <WorkExperience />
       </header>
+      <Counter />
     </div>
   );
 }
