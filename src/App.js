@@ -5,8 +5,11 @@ import ProfileImage from './components/ProfileImage';
 import ContactInfo from './components/ContactInfo';
 import WorkExperience from './components/WorkExperience/WorkExperience';
 import Counter from './components/Counter';
+import MyRepos from './components/MyRepos';
 
 function App() {
+  const username = 'light-pro-grammer';
+  const token = process.env.REACT_APP_GITHUB_TOKEN;
   return (
     <div className="App">
       <header className="App-header">
@@ -16,6 +19,7 @@ function App() {
         </div>
         <WorkExperience />
       </header>
+      <MyRepos username={username} token={token} />
       <Counter />
     </div>
   );
